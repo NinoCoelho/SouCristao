@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Versiculo do dia</name>
+	<author>Mike Leeper/NinoCoelho</author>
+	<creationDate>12/19/2008</creationDate>
+	<copyright>(C) SouCristao.com.br / All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>webmaster@soucristao.com.br</authorEmail>
+	<authorUrl>www.soucristao.com.br</authorUrl>
+	<version>1.5.0</version>
+	<description><![CDATA[This module shows a verse of day, in portuguese, from a RSS feed
+    ]]></description>
+	<files>
+		<filename module="mod_versiculododia">mod_versiculododia.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="count" type="text" size="6" default="3" label="Prayer Count" description="The number of verses to display" />
+		<param name="rss url" type="text" size="50" default="http://www.bibliaonline.com.br/acf/feeds/daily_verses.atom" label="RSS URL" description="The URL of the feed." />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="15" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

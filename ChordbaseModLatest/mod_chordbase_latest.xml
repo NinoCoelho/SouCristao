@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+  <mosinstall type="module">
+    <name>Latest Songs</name>
+    <creationDate>29.03.2005</creationDate>
+    <author>Nino Coelho</author>
+    <copyright>This template is released under the GNU/GPL License</copyright>
+    <authorEmail>nino@soucristao.com.br</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0</version>
+    <description>This module shows a list of the latest Songs.</description>
+	<files>
+		<filename module="mod_chordbase_latest">mod_chordbase_latest.php</filename>
+	</files>
+	<params>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="catid" type="text" default="" label="Category ID" description="Selects items from a specific Category or set of Categories (to specify more than one Category, seperate with a comma , )." />
+		<param name="writerid" type="text" default="" label="Writer ID" description="Selects items from a specific Writer or set of Writers (to specify more than one Writer, seperate with a comma , )." />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	</params>
+</mosinstall>

@@ -1,0 +1,54 @@
+.Chord {
+	color: #900;
+	background: none;
+	font-weight: bold;
+}
+
+.SongWords {
+	font-weight: normal;
+}
+
+.SongPart {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+.PartRepeat {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.Song {
+	text-align: left;
+}
+
+/* ChordPRO HTML */
+.choproChorus 
+{ 
+	border-left: 2px solid silver;
+	margin-left: 30px;
+	padding-left: 5px;
+} 
+.choproTab 
+{ 
+	font-family: monospace;
+} 
+.choproComment 
+{ 
+	font-weight: bold; 
+} 
+.choproGuitarComment
+{ 
+	font-weight: bold; 
+	font-style: italic; 
+} 
+.choproChord 
+{ 
+	font-weight: bold;
+	cursor: hand;
+}       
+.choproLyric
+{ 
+}

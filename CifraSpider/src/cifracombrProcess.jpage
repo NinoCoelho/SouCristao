@@ -1,0 +1,15 @@
+String chordLine = "D9       D9/G       Bm7              A9     A4       D9 D  C",
+			line = "A tu me amas  como sou   mas nao me deixas como estou"+"                                                ";
+String temp = "";
+int index = chordLine.length()-1;
+while (index >= 0){
+	if (chordLine.charAt(index) == ' ' && chordLine.charAt(index+1) != ' ') { 
+		line = line.substring(0,index+1)+"["+chordLine.substring(index).trim()+"]"+line.substring(index+1);
+		chordLine = chordLine.substring(0,--index)+" ";
+	}
+	index--;
+}
+if (!chordLine.trim().equals("")) {
+	line = "["+chordLine.trim()+"]"+line.trim();
+}
+System.out.println(line);

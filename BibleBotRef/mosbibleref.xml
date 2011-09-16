@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.1" type="mambot" group="content">
+	<name>mosbibleref</name>
+	<author>Mambo Bible Project</author>
+	<creationDate>March 2005</creationDate>
+	<copyright>(C) 2005 - nino Coelho</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>nino@soucristao.com.br</authorEmail>
+	<authorUrl>www.soucristao.com.br</authorUrl>
+	<version>1.0</version>
+	<description>Make links in content bible refs.</description>
+	<files>
+		<filename mambot="mosbibleref">mosbibleref.php</filename>
+	</files>
+	<params/>
+</mosinstall>

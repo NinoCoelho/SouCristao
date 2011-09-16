@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+  <mosinstall type="module">
+    <name>Capítulo do Dia</name>
+    <creationDate>29.03.2005</creationDate>
+    <author>Nino Coelho</author>
+    <copyright>This template is released under the GNU/GPL License</copyright>
+    <authorEmail>nino@superzoom.com.br</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0</version>
+    <description>Shows a biblical message based on a chapter. Texts came from Chapter-A-Day website</description>
+    <files>
+      <filename module="mod_biblechapaday">mod_biblechapaday.php</filename>
+      <filename>ChapADay.sql</filename>
+    </files>
+  </mosinstall>

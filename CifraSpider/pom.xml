@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.soucristao</groupId>
+  <artifactId>CifraSpider</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>CifraSpider</name>
+  <description>Spider para buscar cifras em formato ChordPro do site cifras.com</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>httpunit</groupId>
+  		<artifactId>httpunit</artifactId>
+  		<version>1.7</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>rhino</groupId>
+  		<artifactId>js</artifactId>
+  		<version>1.7R1</version>
+  	</dependency>
+  </dependencies>
+</project>
